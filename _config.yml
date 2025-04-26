@@ -1,6 +1,6 @@
 title: Thomas Houlden
 description: >-          # the >- keeps it on one line in the HTML
-  Personal site and blog.
+  Personal site.
 baseurl: ""              # leave empty when the site is at the domain root
 url: "https://thomas-houlden.com"   # no trailing slash
 
