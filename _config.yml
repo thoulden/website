@@ -1,0 +1,15 @@
+title: Thomas Houlden
+description: >-          # the >- keeps it on one line in the HTML
+  Personal site and blog.
+baseurl: ""              # leave empty when the site is at the domain root
+url: "https://thomas-houlden.com"   # no trailing slash
+
+theme: minima            # ← the magic line
+plugins:
+  - jekyll-feed          # auto-generates /feed.xml for readers
+  - jekyll-seo-tag       # better meta tags for search previews
+
+# Optional: show your email/icon links in the footer
+author:
+  name: Thomas Houlden
+  email: you@example.com
