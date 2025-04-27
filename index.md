@@ -19,7 +19,7 @@ You can reach me at <em>tom.w.houlden[at]gmail.com</em>
 
 # Research
 
-## In progress
+## <em>In progress<em>
 
 **Is Automating AI Research Enough for a Growth Explosion?**  
 [[slides](/assets/shs_slides.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
