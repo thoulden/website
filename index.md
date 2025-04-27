@@ -9,7 +9,7 @@ title: Home
 
 <div class="bio">
 
-<p>I'm an <em>(incoming)</em> PhD student in economics at Columbia.</p>
+<p>I'm an <em>(incoming)</em> PhD student in economics at Columbia University.</p>
 <p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
 <p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
 
