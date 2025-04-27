@@ -19,5 +19,5 @@ At the moment I’m particularly interested in the influence and management of A
 ## Research
 
 **Is Automating AI Research Enough for a Growth Explosion?**  
-*(with Tom Davidson, Thomas Houlden, and Anton Korinek)*  
+*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 [slides](/assets/papers/ai-growth-explosion-slides.pdf)
