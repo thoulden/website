@@ -11,4 +11,6 @@ title: Home
 My research interests include growth, welfare and technology.  
 At the moment I’m particularly interested in the influence and management of AI.</p>
 
+<p> You can reach me at <em>tom.w.houlden[at]gmail.com</em> </p>
+
 </div>
