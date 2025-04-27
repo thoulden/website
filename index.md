@@ -16,7 +16,9 @@ At the moment I’m particularly interested in the influence and management of A
 </div>
 </div>
 
-## Research
+# Research
+
+## In progress
 
 **Is Automating AI Research Enough for a Growth Explosion?**  
 *(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
