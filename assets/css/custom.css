@@ -1,19 +1,24 @@
-/* simple two-column hero */
+/* ─── “Hero” two-column block ─────────────────────────────── */
 .hero {
   display: flex;
-  flex-wrap: wrap;            /* stacks on mobile */
+  flex-wrap: wrap;        /* stacks columns on a narrow phone */
   align-items: center;
   gap: 2rem;
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
-.hero img {
-  max-width: 220px;           /* adjust size here */
-  border-radius: 50%;         /* circle crop */
+.hero img.headshot {
+  width: 160px;           /* size of photo — tweak as you like */
+  border-radius: 50%;     /* circle crop */
+  flex-shrink: 0;         /* never let the image squish */
 }
 
-.hero p {
-  margin: 0;
+.hero .bio {
+  flex: 1;                /* take the remaining width */
+  min-width: 240px;       /* keeps text readable on very small screens */
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
+
+/* optional: tighten spacing below headings */
+h2 { margin-top: 2.5rem; }
