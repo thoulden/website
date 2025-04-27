@@ -14,3 +14,11 @@ At the moment I’m particularly interested in the influence and management of A
 <p> You can reach me at <em>tom.w.houlden[at]gmail.com</em> </p>
 
 </div>
+
+</div>
+
+## Research
+
+**Is Automating AI Research Enough for a Growth Explosion?**  
+*(with Tom Davidson, Thomas Houlden, and Anton Korinek)*  
+[slides](/assets/shs_slides.pdf)
