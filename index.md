@@ -3,7 +3,7 @@ layout: default          # keep Minima’s default header & footer
 title: Home
 ---
 
-<div class="hero">
+<div class="hero" markdown="1">
 
 ![Photo of Thomas Houlden](/me.jpg)
 
