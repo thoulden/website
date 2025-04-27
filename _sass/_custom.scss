@@ -1,4 +1,4 @@
-/* ─── “Hero” two-column block ─────────────────────────────── */
+// ─── Hero two-column block ─────────────────────────────────
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -8,9 +8,9 @@
 }
 
 .hero img.headshot {
-  width: 300px;        /* make it wider */
-  height: auto;        /* keep aspect ratio */
-  border-radius: 0;    /* square corners */
+  width: 300px;        // wider, rectangular
+  height: auto;
+  border-radius: 0;    // square corners
   flex-shrink: 0;
 }
 
@@ -21,10 +21,10 @@
   line-height: 1.55;
 }
 
-/* ─── Remove the Minima footer ────────────────────────────── */
-footer {
+// ─── Hide Minima’s footer ───────────────────────────────────
+footer.site-footer {
   display: none !important;
 }
 
-/* optional: tighten spacing below headings */
+// ─── Optional spacing tweak ─────────────────────────────────
 h2 { margin-top: 2.5rem; }
