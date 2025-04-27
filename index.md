@@ -21,7 +21,7 @@ At the moment I’m particularly interested in the influence and management of A
 ## In progress
 
 **Is Automating AI Research Enough for a Growth Explosion?**  
-[[slides](/assets/ai-growth-explosion-slides.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
+[[slides](/assets/shs_slides.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
 **Making and Influencing Irreversible Policy Decisions under Preference Heterogeneity**  
 [[slides](/assets/IrreversibleDecisions_HouldenNegele.pdf)]*(with Maximilian Negele)*  
