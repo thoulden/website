@@ -1,5 +1,5 @@
 ---
 ---
 
-@import "minima";        // keep everything Minima provides
-@import "css/custom";    // pull in our rules (path is without “assets/” and file-ext)
+@import "minima";          // keep default Minima styles
+@import "custom";          // pulls in assets/_custom.scss
