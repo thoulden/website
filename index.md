@@ -11,7 +11,7 @@ title: Home
 
 <p>I'm an <em>(incoming)</em> PhD student in economics at Columbia University.</p>
 <p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
-<p>In past lives I've worked at the Commonwealth Treasury of Australia and completed a Master's in Econometrics and Mathematical Economics at the London School of Economics.</em></p>
+<p>In past lives I've worked at the Commonwealth Treasury of Australia and completed a Master's in Econometrics and Mathematical Economics at the London School of Economics.</p>
 
 <p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
 
