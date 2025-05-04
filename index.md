@@ -13,6 +13,8 @@ title: Home
 <p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
 <p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
 
+<p>In past lives I've worked at the Commonwealth Treasury of Australia and completed a Master's in Economietrics and Mathematical Economics at the London School of Economics.</em></p>
+
 </div>
 </div>
 
