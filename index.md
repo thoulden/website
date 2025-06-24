@@ -9,7 +9,7 @@ title: Home
 
 <div class="bio">
 
-<p>I'm an <em>(incoming)</em> PhD student in economics at Columbia University.</p>
+<p>I'm a <em>(incoming)</em> PhD student in economics at Columbia University.</p>
 <p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
 <p>I've worked at the Commonwealth Treasury of Australia and the Global Priorities Institute (University of Oxford).</p> 
 
