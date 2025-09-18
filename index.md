@@ -31,6 +31,6 @@ title:
 
 # Other Work
 **How quick and big would a software intelligence explosion be?**  
-[[Paper](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)] and [[simulation tool(https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
+[[Paper](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
 
 
