@@ -29,7 +29,7 @@ title:
 [[slides](/assets/IrreversibleDecisions_HouldenNegele.pdf)]*(with Maximilian Negele)*  
 
 
-# Other Work
+## Other Work
 **How quick and big would a software intelligence explosion be?**  
 [[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
 
