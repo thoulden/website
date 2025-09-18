@@ -28,3 +28,9 @@ title:
 **Making and Influencing Irreversible Policy Decisions under Preference Heterogeneity**  
 [[slides](/assets/IrreversibleDecisions_HouldenNegele.pdf)]*(with Maximilian Negele)*  
 
+
+# Other Work
+**How quick and big would a software intelligence explosion be?**  
+[[Paper](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)] and [[simulation tool(https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
+
+
