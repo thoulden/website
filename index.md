@@ -4,19 +4,18 @@ title:
 ---
 
 <div class="hero" markdown="1">
-<div class="photo">
-  <img src="/assets/HeadShot2_Cropped.jpg" alt="Head-shot of Thomas Houlden" class="headshot">
-<div>
-<div class="bio">
+  <div class="photo">
+    <img src="/assets/HeadShot2_Cropped.jpg" alt="Head-shot of Thomas Houlden" class="headshot">
+  </div>
 
-<p>I'm a PhD student in economics at Columbia University.</p>
-<p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
-<p>I've worked at the Commonwealth Treasury of Australia and the Global Priorities Institute (University of Oxford).</p> 
-
-<p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
-
+  <div class="bio">
+    <p>I'm a PhD student in economics at Columbia University.</p>
+    <p>My research interests include growth, welfare and technology. At the moment I’m particularly interested in the influence and management of AI.</p>
+    <p>I've worked at the Commonwealth Treasury of Australia and the Global Priorities Institute (University of Oxford).</p> 
+    <p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
+  </div>
 </div>
-</div>
+
 
 # Research
 
