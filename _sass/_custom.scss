@@ -1,27 +1,26 @@
 // ─── Hero two-column block ─────────────────────────────────
 .hero {
   display: flex;
-  align-items: stretch;      /* makes siblings share the same height */
-  gap: 1.5rem;
+  align-items: center;   /* centers text vertically with the image */
+  gap: 1.5rem;           /* space between image and text */
 }
 
-.hero .bio {
-  flex: 1 1 0;               /* text column grows and defines the height */
-  min-width: 0;              /* prevents overflow with long words */
-}
-
-.hero .photo {               /* image wrapper */
-  flex: 0 0 260px;           /* set your desired image column width */
-  display: block;            /* ensure it can stretch as a flex item */
+.hero .photo {
+  flex: 0 0 260px;       /* fixed width for the image column */
 }
 
 .hero .photo img {
-  display: block;            /* remove inline gap */
+  display: block;
   width: 100%;
-  height: 100%;              /* match the bio's height via the wrapper */
-  object-fit: cover;         /* crop to fill the column neatly */
-  border-radius: 8px;        /* optional */
+  height: auto;          /* keep proportions */
+  border-radius: 0;      /* removes rounded corners */
 }
+
+.hero .bio {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 
 /* Responsive: stack on small screens */
 @media (max-width: 700px) {
