@@ -5,7 +5,7 @@ title:
 
 <div class="hero" markdown="1">
 
-<img src="/assets/HeadSHot2.png" alt="Head-shot of Thomas Houlden" class="headshot">
+<img src="/assets/HeadShot2.jpg" alt="Head-shot of Thomas Houlden" class="headshot">
 
 <div class="bio">
 
