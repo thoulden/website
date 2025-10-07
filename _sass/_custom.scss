@@ -1,67 +1,48 @@
 // ─── Hero two-column block ─────────────────────────────────
 .hero {
   display: flex;
-  align-items: center;   /* centers text vertically with the image */
-  gap: 1.5rem;           /* space between image and text */
-  margin-bottom: 4rem;  
+  align-items: center;   // centers text vertically with the image
+  gap: 1.5rem;           // space between image and text
+  margin-bottom: 4rem;
+
+  .photo {
+    flex: 0 0 200px;     // fixed width for the image column
+    img {
+      display: block;
+      width: 100%;
+      height: auto;      // keep proportions
+      border-radius: 0;  // removes rounded corners
+    }
+  }
+
+  .bio {
+    flex: 1 1 0;
+    min-width: 0;
+  }
 }
 
-.hero .photo {
-  flex: 0 0 200px;       /* fixed width for the image column */
-}
-
-.hero .photo img {
-  display: block;
-  width: 100%;
-  height: auto;          /* keep proportions */
-  border-radius: 0;      /* removes rounded corners */
-}
-
-.hero .bio {
-  flex: 1 1 0;
-  min-width: 0;
-}
-
-
-/* Base link: no border/outline, no button look */
-.site-nav .nav-link {
-  border: 0;
-  outline: none;
-  background: transparent;
-  -webkit-appearance: none;
-  appearance: none;
-  -webkit-tap-highlight-color: transparent; /* removes iOS grey block */
-}
-
-/* Keep an accessible focus style for keyboard users (not shown on taps) */
-.site-nav .nav-link:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-/* Phone sizing + spacing */
+// Responsive: stack on small screens (image above text)
 @media (max-width: 700px) {
-  .site-nav .nav-container {
-    gap: 12px;            /* smaller gap on mobile */
-  }
-  .site-nav .nav-link {
-    font-size: 0.95rem;   /* smaller text */
-    line-height: 1.2;     /* tighter */
-    padding: 0;           /* ensure no extra space */
+  .hero {
+    flex-direction: column;
+    align-items: flex-start; // keep text left-aligned; use center if you prefer
+    .photo {
+      flex-basis: auto;
+      img {
+        width: 180px;    // nicer size on phones
+        height: auto;
+      }
+    }
   }
 }
 
+// ─── Hide Minima’s footer (optional) ──────────────────────
+footer.site-footer { display: none !important; }
 
-
-// ─── Hide Minima’s footer ───────────────────────────────────
-footer.site-footer {
-  display: none !important;
-}
-
-// ─── Optional spacing tweak ─────────────────────────────────
+// ─── Optional spacing tweak ───────────────────────────────
 h2 { margin-top: 2.5rem; }
 
-// Navigation styles
+// ─── Navigation styles ────────────────────────────────────
 .site-nav {
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -73,18 +54,51 @@ h2 { margin-top: 2.5rem; }
     padding: 0 1rem;
     display: flex;
     justify-content: flex-end;
-    gap: 20px;          // replaces inline margin-left
-    // remove: padding-right: 35%;
+    gap: 20px; // spacing between links (replaces inline margin-left)
   }
 
   .nav-link {
-    color: #000;
+    color: #000;             // pure black
     text-decoration: none;
     font-weight: 500;
+
+    // Remove any button-like look and mobile tap borders/highlights
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
       text-decoration: underline;
       color: #000;
+    }
+
+    // Kill outlines on tap/click
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  // Keep a keyboard-only focus style on desktops/laptops (accessible, not shown on touch)
+  @media (hover: hover) and (pointer: fine) {
+    .nav-link:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+  }
+
+  // Phone sizing + spacing
+  @media (max-width: 700px) {
+    .nav-container { gap: 12px; }
+    .nav-link {
+      font-size: 0.95rem;
+      line-height: 1.2;
+      padding: 0; // ensure no extra space around links
     }
   }
 }
