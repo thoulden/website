@@ -23,19 +23,34 @@
 }
 
 
-/* Responsive: stack on small screens */
+/* Base link: no border/outline, no button look */
+.site-nav .nav-link {
+  border: 0;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent; /* removes iOS grey block */
+}
+
+/* Keep an accessible focus style for keyboard users (not shown on taps) */
+.site-nav .nav-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Phone sizing + spacing */
 @media (max-width: 700px) {
-  .hero {
-    flex-direction: column;
+  .site-nav .nav-container {
+    gap: 12px;            /* smaller gap on mobile */
   }
-  .hero .photo {
-    flex-basis: auto;
-  }
-  .hero .photo img {
-    width: 180px;            /* nicer size on phones */
-    height: auto;            /* go back to intrinsic height when stacked */
+  .site-nav .nav-link {
+    font-size: 0.95rem;   /* smaller text */
+    line-height: 1.2;     /* tighter */
+    padding: 0;           /* ensure no extra space */
   }
 }
+
 
 
 // ─── Hide Minima’s footer ───────────────────────────────────
