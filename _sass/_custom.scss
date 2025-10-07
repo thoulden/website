@@ -51,24 +51,25 @@ h2 { margin-top: 2.5rem; }
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
   padding: 1rem 0;
-  
+
   .nav-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
     justify-content: flex-end;
-    padding-right: 35%; // This positions it about 3/4 across
+    gap: 20px;          // replaces inline margin-left
+    // remove: padding-right: 35%;
   }
-  
+
   .nav-link {
-    color: #000; // Pure black
+    color: #000;
     text-decoration: none;
     font-weight: 500;
-    
+
     &:hover {
       text-decoration: underline;
-      color: #000; // Keep black on hover
+      color: #000;
     }
   }
 }
