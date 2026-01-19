@@ -101,4 +101,26 @@ h2 { margin-top: 2.5rem; }
       padding: 0; // ensure no extra space around links
     }
   }
+
+  // Code link with vibe hover effect
+  .code-link {
+    position: relative;
+
+    .vibe-text {
+      position: absolute;
+      top: -1.1em;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.75em;
+      color: rgba(128, 128, 128, 0.7);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+
+    &:hover .vibe-text {
+      opacity: 1;
+    }
+  }
 }
