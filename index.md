@@ -22,7 +22,7 @@ title:
 ## <em>In progress<em>
 
 **Is Automating AI Research Enough for a Growth Explosion?**  
-[[slides](/assets/shs_slides.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
+[[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
 **Making and Influencing Irreversible Policy Decisions under Preference Heterogeneity**  
 [[slides](/assets/IrreversibleDecisions_HouldenNegele.pdf)]*(with Maximilian Negele)*  
