@@ -18,7 +18,7 @@ title:
 
 
 # Research
-**When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Network (Jan, 2026)s**  
+**When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks (Jan, 2026)**  
 [[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
 ## <em>In progress<em>
