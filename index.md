@@ -21,7 +21,7 @@ title:
 
 ## <em>In progress<em>
 
-**Is Automating AI Research Enough for a Growth Explosion?**  
+**When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks**  
 [[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
 **Making and Influencing Irreversible Policy Decisions under Preference Heterogeneity**  
