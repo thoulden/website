@@ -19,8 +19,8 @@ title:
 
 # Research
 **When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks**  *(Jan, 2026)*
-<details class="abstract-dropdown">
-<summary> </summary>[[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*
+[[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)* <details class="abstract-dropdown">
+<summary> </summary>
 <p>AI labs are increasingly using AI itself to accelerate AI research, creating a feedback loop that could potentially lead to an "intelligence explosion". We develop a general semi-endogenous growth model with an innovation network, where research and automation in one sector increases the productivity of research in other sectors, and derive a clean analytical condition under which growth becomes super-exponential ("explosive"). The key intuition is that automation of research both offsets diminishing returns to research and increases cross-sectoral research spillovers, making explosive growth more likely. Applying this model to a calibrated, AI-integrated economy, we demonstrate that the growth effects of automation may be slow initially but compound rapidly. In our benchmark calibration, the level of automation needed to double the long-run growth rate already achieves well over half of the automation level needed to generate explosive growth.</p>
 </details>
 
