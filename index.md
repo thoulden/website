@@ -23,7 +23,7 @@ title:
 
 
 ## Other Work
-**Aggregating Fast and Slow Growth**  *(March, 2026)*  
+**Aggregating Slow and Fast Growth**  *(March, 2026)*  
 [[note](/assets/AggregatingGrowth.pdf)]
 
 **Endogenous Dampening in Task Based Models**  *(March, 2026)*  
