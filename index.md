@@ -21,11 +21,6 @@ title:
 **When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks (Jan, 2026)**  
 [[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
-## <em>In progress<em>
-
-**Making and Influencing Irreversible Policy Decisions under Preference Heterogeneity**  
-[[slides](/assets/IrreversibleDecisions_HouldenNegele.pdf)]*(with Maximilian Negele)*  
-
 
 ## Other Work
 **Aggregating Fast and Slow Growth**  
