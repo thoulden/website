@@ -26,6 +26,9 @@ title:
 **Aggregating Fast and Slow Growth**  *(March, 2026)*  
 [[note](/assets/AggregatingGrowth.pdf)]
 
+**Endogenous Dampening in Task Based Models**  *(March, 2026)*  
+[[note](/assets/Automation_EndogenousDampening.pdf)]
+
 **How quick and big would a software intelligence explosion be?**  *(Aug, 2025)*  
 [[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
 
