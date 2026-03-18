@@ -29,21 +29,20 @@ title:
 
 
 ## Other Work
-**Aggregating Slow and Fast Growth**  *(March, 2026)*
+**Aggregating Slow and Fast Growth**  *(March, 2026)*  
+[[note](/assets/AggregatingGrowth.pdf)]  
 <details class="abstract-dropdown">
 <summary>Abstract</summary>
 <p>In this note I consider an economy with two factor inputs, one growing exponentially and one growing hyperbolically. I derive the conditions under which aggregate output is growing super exponentially vs subexponentially. In the case where the slow growing factor is in fact fixed, I get a closed form solution for the date at which the growth regime changes from super to subexponential.</p>
 </details>
 
-[[note](/assets/AggregatingGrowth.pdf)]
-
-**Endogenous Dampening in Task Based Models**  *(March, 2026)*
+**Endogenous Dampening in Task Based Models**  *(March, 2026)*  
+[[note](/assets/Automation_EndogenousDampening.pdf)]  
 <details class="abstract-dropdown">
 <summary>Abstract</summary>
 <p>This note derives conditions under which an endogenous automation frontier eliminates task bottlenecks in a CES task-based model, despite complementarities across tasks. An expanding AI task share can offset the drag from unbalanced factor growth, and the key condition admits a clean form: automation scales without bottleneck so long as the slope of the AI productivity gradient is less than the elasticity of substitution between AI and labour.</p>
 </details>
 
-[[note](/assets/Automation_EndogenousDampening.pdf)]
 
 **How quick and big would a software intelligence explosion be?**  *(Aug, 2025)*  
 [[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
