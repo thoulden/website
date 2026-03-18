@@ -18,15 +18,15 @@ title:
 
 
 # Research
-**When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks (Jan, 2026)**  
+**When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks** (Jan, 2026)  
 [[working paper](/assets/AIResearch_Jan312026.pdf)]*(with Tom Davidson, Basil Halperin, and Anton Korinek)*  
 
 
 ## Other Work
-**Aggregating Fast and Slow Growth**  
+**Aggregating Fast and Slow Growth**  (March, 2026)
 [[note](/assets/AggregatingGrowth.pdf)]
 
-**How quick and big would a software intelligence explosion be?**  
+**How quick and big would a software intelligence explosion be?** (Aug, 2025)
 [[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
 
 
