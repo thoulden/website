@@ -91,6 +91,38 @@ footer.site-footer { display: none !important; }
   }
 }
 
+// ─── Abstract dropdowns ─────────────────────────────────────
+.abstract-dropdown {
+  margin: 0.3rem 0 0.2rem 0;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #555;
+    list-style: none;           // hide default marker
+
+    &::before {
+      content: "▸ ";
+    }
+
+    &::-webkit-details-marker {
+      display: none;            // hide default marker in WebKit
+    }
+  }
+
+  &[open] summary::before {
+    content: "▾ ";
+  }
+
+  p {
+    margin: 0.4rem 0 0.2rem 0;
+    font-size: 0.85rem;
+    color: #444;
+    line-height: 1.5;
+    padding-left: 0.2rem;
+  }
+}
+
 // ─── Optional spacing tweak ───────────────────────────────
 h2 { margin-top: 2.5rem; }
 
