@@ -93,7 +93,7 @@ footer.site-footer { display: none !important; }
 
 // ─── Abstract dropdowns ─────────────────────────────────────
 .abstract-dropdown {
-  margin: 0.1rem 0 0.3rem 0;
+  margin: -0.5rem 0 0.3rem 0;
 
   summary {
     cursor: pointer;
@@ -109,7 +109,7 @@ footer.site-footer { display: none !important; }
     &::before {
       content: "▸";
       font-size: 0.7rem;
-      color: #555;
+      color: #000;
     }
 
     a {
