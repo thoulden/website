@@ -28,6 +28,9 @@ title:
 
 
 ## Other Work
+**Aggregating Fast and Slow Growth**  
+[[note](/assets/AggregatingGrowth.pdf)]
+
 **How quick and big would a software intelligence explosion be?**  
 [[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
 
