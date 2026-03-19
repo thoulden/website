@@ -32,7 +32,7 @@ title:
 
 **Endogenous Dampening in Task Based Models**  *(March, 2026)*  
 <details class="abstract-dropdown" style="margin-top: -1em;"><summary><a href="/assets/Automation_EndogenousDampening.pdf">[note]</a></summary>
-<p>This note derives conditions under which an endogenous automation frontier eliminates task bottlenecks in a CES task-based model, despite complementarities across tasks. An expanding AI task share can offset the drag from unbalanced factor growth, and the key condition admits a clean form: automation scales without bottleneck so long as the slope of the AI productivity gradient is less than the elasticity of substitution between AI and labour.</p>
+<p>This note derives conditions under which an endogenous automation frontier eliminates task bottlenecks in a CES task-based model, despite complementarities across tasks. An expanding AI task share can offset the drag from unbalanced factor growth, and the key condition admits a clean form: automation scales without bottlenecks so long as the slope of the AI productivity gradient is less than the elasticity of substitution between AI and labor.</p>
 </details>
 
 **How quick and big would a software intelligence explosion be?**  *(Aug, 2025)*  
