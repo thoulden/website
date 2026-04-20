@@ -10,7 +10,7 @@ title:
 
   <div class="bio">
     <p>I'm a PhD student in economics at Columbia University.</p>
-    <p>My research interests include growth, welfare and technology. I’m particularly interested in the economic effects and management of AI and automation.</p>
+    <p>My research interests include growth, welfare and technology. I’m particularly interested in the economic impacts and management of AI and automation.</p>
     <p>I've worked at the Commonwealth Treasury of Australia and the Global Priorities Institute (University of Oxford).</p> 
     <p>You can reach me at <em>tom.w.houlden[at]gmail.com</em></p>
   </div>
