@@ -25,7 +25,7 @@ title: Other Projects
   </div>
   <div class="project-content">
     <h2>Manhattan Runs</h2>
-    <p>I moved to New York in September 2025 and I got the idea to run every street in Manhattan. <a href="https://runs.thomas-houlden.com">I built this website to track my progress.</a>
+    <p>I moved to New York in September 2025 and I got the idea to run every street in Manhattan. <a href="http://thoulden.github.io/manhattan-map/">I built this website to track my progress.</a>
     See <a href="https://github.com/thoulden/manhattan-map">GitHub</a> for replication.</p>
   </div>
 </div>
