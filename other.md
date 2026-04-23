@@ -19,7 +19,7 @@ title: Other Projects
 
 <div class="project">
   <div class="project-thumbnail">
-    <a href="https://runs.thomas-houlden.com">
+    <a href="[https://runs.thomas-houlden.com](http://thoulden.github.io/manhattan-map/)">
       <img src="/assets/manhattan_runs.png" alt="Manhattan Runs map preview">
     </a>
   </div>
