@@ -48,5 +48,5 @@ title:
 -->
 
 **How quick and big would a software intelligence explosion be?**   
-[[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://accelerated-ai-progress.streamlit.app/)] *(with Tom Davidson)*  
+[[article](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be)], [[simulation tool](https://thoulden.github.io/Accelerated_AI_Progress/#single)] *(with Tom Davidson)*  
 
