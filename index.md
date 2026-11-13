@@ -1,8 +1,4 @@
 
----
-layout: default
-title:
----
 
 <style>
 /* Research publications */
