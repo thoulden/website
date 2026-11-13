@@ -23,6 +23,9 @@ title:
 <p>AI labs are increasingly using AI itself to accelerate AI research, creating a feedback loop that could lead to an intelligence explosion. We develop a general semi-endogenous growth model with an innovation network, where research and automation in one sector increase the productivity of research in other sectors, and derive a clean analytical condition under which growth becomes superexponential (``explosive''). We find that automating research can offset diminishing returns to ideas by activating two reinforcing channels: a technological feedback loop across research sectors, and an economic feedback loop in which higher output finances further research. Growth becomes explosive if the combined strength of technological and economic feedback loops overcomes diminishing returns. In a simple simulation calibrated to trends in AI progress, fully automating software research and modest (5%) automation in other sectors generates a singularity within six years. Bottlenecks do not overturn the result if task automation advances sufficiently fast. </p> 
 </details>
 
+## Works in Progress
+**Navigating the AI Economy: Growth, Bottlenecks and Risks** 
+*(with Daron Acemoglu and Andrew Koh)*
 
 ## Other Work
 **Aggregating Slow and Fast Growth**  *(March, 2026)*  
