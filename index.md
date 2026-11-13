@@ -1,6 +1,7 @@
+
 ---
 layout: default
-title: 
+title:
 ---
 
 <style>
@@ -220,4 +221,3 @@ title:
   </p>
 
 </div>
-
