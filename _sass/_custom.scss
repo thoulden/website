@@ -1,17 +1,25 @@
-// ─── Hero two-column block ─────────────────────────────────
+
+/* ==========================================================
+   CUSTOM STYLES
+   ========================================================== */
+
+
+/* ─── Hero two-column block ─────────────────────────────── */
+
 .hero {
   display: flex;
-  align-items: center;   // centers text vertically with the image
-  gap: 1.5rem;           // space between image and text
+  align-items: center;
+  gap: 1.5rem;
   margin-bottom: 4rem;
 
   .photo {
-    flex: 0 0 200px;     // fixed width for the image column
+    flex: 0 0 200px;
+
     img {
       display: block;
       width: 100%;
-      height: auto;      // keep proportions
-      border-radius: 0;  // removes rounded corners
+      height: auto;
+      border-radius: 0;
     }
   }
 
@@ -21,25 +29,157 @@
   }
 }
 
-// Responsive: stack on small screens (image above text)
+/* Mobile: image above text */
 @media (max-width: 700px) {
   .hero {
     flex-direction: column;
-    align-items: flex-start; // keep text left-aligned; use center if you prefer
+    align-items: flex-start;
+
     .photo {
       flex-basis: auto;
+
       img {
-        width: 180px;    // nicer size on phones
+        width: 180px;
         height: auto;
       }
     }
   }
 }
 
-// ─── Hide Minima's footer (optional) ──────────────────────
-footer.site-footer { display: none !important; }
 
-// ─── Project cards with thumbnails ────────────────────────
+/* ─── Hide Minima footer ────────────────────────────────── */
+
+footer.site-footer {
+  display: none !important;
+}
+
+
+/* ─── Research publications ────────────────────────────── */
+
+.publication {
+  margin-bottom: 1.6rem;
+}
+
+/* Paper title and date */
+.publication-title {
+  margin: 0 0 0.2rem 0;
+  line-height: 1.45;
+}
+
+.publication-title strong {
+  font-weight: 700;
+}
+
+.publication-title em {
+  font-weight: 400;
+}
+
+/* Links appear as a continuous sentence */
+.publication-links {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  white-space: normal;
+}
+
+/* Each link stays together but links wrap naturally */
+.publication-links a {
+  display: inline !important;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+/* Coauthor names */
+.publication-authors {
+  display: inline;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+/* ─── Abstract dropdowns ───────────────────────────────── */
+
+.abstract-dropdown {
+  display: block;
+  margin: 0.3rem 0 0 0;
+  padding: 0;
+}
+
+/* Collapsible abstract label */
+.abstract-dropdown summary {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Hide browser's default disclosure arrow */
+.abstract-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom disclosure arrow */
+.abstract-dropdown summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* Arrow when expanded */
+.abstract-dropdown[open] > summary::before {
+  content: "▾";
+}
+
+/* Hover effect */
+.abstract-dropdown summary:hover {
+  color: #0056b3;
+}
+
+/* Compatibility with older summaries containing links */
+.abstract-dropdown summary a {
+  display: inline !important;
+  white-space: nowrap;
+  font-size: inherit;
+}
+
+/* Abstract text */
+.abstract-dropdown p {
+  margin: 0.6rem 0 0.3rem 0;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+/* ─── Section spacing ──────────────────────────────────── */
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+/* Research section headings */
+.research-section {
+  margin-top: 2rem;
+}
+
+.research-section h2 {
+  margin-bottom: 1rem;
+}
+
+
+/* ─── Project cards with thumbnails ────────────────────── */
+
 .project {
   display: flex;
   align-items: flex-start;
@@ -58,7 +198,8 @@ footer.site-footer { display: none !important; }
         height: auto;
         border: 1px solid #ddd;
         border-radius: 4px;
-        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        transition: box-shadow 0.2s ease,
+                    transform 0.2s ease;
       }
 
       &:hover img {
@@ -78,7 +219,7 @@ footer.site-footer { display: none !important; }
   }
 }
 
-// Responsive: stack on small screens (thumbnail above text)
+/* Mobile: thumbnail above text */
 @media (max-width: 700px) {
   .project {
     flex-direction: column;
@@ -91,48 +232,9 @@ footer.site-footer { display: none !important; }
   }
 }
 
-// ─── Abstract dropdowns ─────────────────────────────────────
-.abstract-dropdown {
-  margin: -0.5rem 0 0.3rem 0;
 
-  summary {
-    cursor: pointer;
-    list-style: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.15rem;
+/* ─── Navigation styles ────────────────────────────────── */
 
-    &::-webkit-details-marker {
-      display: none;
-    }
-
-    &::before {
-      content: "▸";
-      font-size: 0.7rem;
-      color: #000;
-    }
-
-    a {
-      font-size: inherit;
-    }
-  }
-
-  &[open] > summary::before {
-    content: "▾";
-  }
-
-  p {
-    margin: 0.4rem 0 0.2rem 0;
-    font-size: 0.85rem;
-    color: #444;
-    line-height: 1.5;
-  }
-}
-
-// ─── Optional spacing tweak ───────────────────────────────
-h2 { margin-top: 2.5rem; }
-
-// ─── Navigation styles ────────────────────────────────────
 .site-nav {
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -144,15 +246,15 @@ h2 { margin-top: 2.5rem; }
     padding: 0 1rem;
     display: flex;
     justify-content: flex-end;
-    gap: 20px; // spacing between links (replaces inline margin-left)
+    gap: 20px;
   }
 
   .nav-link {
-    color: #000;             // pure black
+    color: #000;
     text-decoration: none;
     font-weight: 500;
 
-    // Remove any button-like look and mobile tap borders/highlights
+    /* Remove button-like styling */
     border: 0;
     outline: none;
     box-shadow: none;
@@ -166,7 +268,6 @@ h2 { margin-top: 2.5rem; }
       color: #000;
     }
 
-    // Kill outlines on tap/click
     &:focus,
     &:active {
       outline: none;
@@ -174,7 +275,7 @@ h2 { margin-top: 2.5rem; }
     }
   }
 
-  // Keep a keyboard-only focus style on desktops/laptops (accessible, not shown on touch)
+  /* Keyboard accessibility */
   @media (hover: hover) and (pointer: fine) {
     .nav-link:focus-visible {
       outline: 2px solid currentColor;
@@ -182,17 +283,20 @@ h2 { margin-top: 2.5rem; }
     }
   }
 
-  // Phone sizing + spacing
+  /* Phone sizing and spacing */
   @media (max-width: 700px) {
-    .nav-container { gap: 12px; }
+    .nav-container {
+      gap: 12px;
+    }
+
     .nav-link {
       font-size: 0.95rem;
       line-height: 1.2;
-      padding: 0; // ensure no extra space around links
+      padding: 0;
     }
   }
 
-  // Code link with vibe hover effect
+  /* Code link hover effect */
   .code-link {
     position: relative;
 
@@ -201,7 +305,8 @@ h2 { margin-top: 2.5rem; }
       top: -1.1em;
       left: 50%;
       transform: translateX(-50%);
-      font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+      font-family: "Comic Sans MS",
+                   "Comic Sans", sans-serif;
       font-size: 1em;
       color: rgba(128, 128, 128, 0.7);
       opacity: 0;
