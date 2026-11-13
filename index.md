@@ -1,7 +1,7 @@
 
 ---
 layout: default
-title:
+title: ""
 ---
 
 <style>
@@ -141,7 +141,7 @@ title:
   <p class="publication-title">
     <strong>Navigating the AI Economy: Growth, Bottlenecks and Risks</strong>
     <span class="publication-authors">
-      (with Daron Acemoglu and Andrew Koh)
+      (with Daron Acemoglu and Andrew Koh) In preparation for *The Handbook of Economic Growth*.
     </span>
   </p>
 
